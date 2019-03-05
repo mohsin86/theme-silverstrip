@@ -7,7 +7,7 @@
                 <h2>$Title</h2>
                 <div class="content">$Content</div>
             </div>
-            $Form
+
         </div>
     </section>
 

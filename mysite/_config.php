@@ -8,7 +8,7 @@ $databaseConfig = array(
 	'type' => 'MySQLDatabase',
 	'server' => 'localhost',
 	'username' => 'root',
-	'password' => '123456',
+	'password' => 'se212121',
 	'database' => 'silverstripe-demo',
 	'path' => ''
 );

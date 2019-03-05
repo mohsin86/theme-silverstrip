@@ -8,18 +8,18 @@
         <div class="col-lg-8">
 
             <!-- Title -->
-            <h1 class="mt-4">Post Title</h1>
+            <h1 class="mt-4">$Title</h1>
 
             <!-- Author -->
             <p class="lead">
                 by
-                <a href="#">Start Bootstrap</a>
+                <a href="#">$Author</a>
             </p>
 
             <hr>
 
             <!-- Date/Time -->
-            <p>Posted on January 1, 2019 at 12:00 PM</p>
+            <p>Posted on $Date.Long</p>
 
             <hr>
 
