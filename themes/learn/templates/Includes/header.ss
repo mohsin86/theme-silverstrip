@@ -39,11 +39,22 @@
             <i class="fa fa-phone"></i> +1 5589 55488 55
         </div>
         <div class="social-links float-right">
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <% with $SiteConfig %>
+                <% if $FacebookLink %>
+                   <a href="$FacebookLink"><i class="fa fa-facebook"></i></a>
+                <% end_if %>
+                <% if $TwitterLink %>
+                    <a href="$TwitterLink"><i class="fa fa-twitter"></i></a>
+                <% end_if %>
+                <% if $GoogleLink %>
+                    <a href="$GoogleLink"><i class="fa fa-google"></i></a>
+                <% end_if %>
+                <% if $YouTubeLink %>
+                   <a href="#"><i class="fa fa-youtube"></i></a>
+                <% end_if %>
+            <% end_with %>
+
+
         </div>
     </div>
 </section>

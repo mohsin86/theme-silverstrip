@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fbc8463825ac08f3bdf85369e22b4f2",
+    "content-hash": "6481f7acd0b193747cae1666ffdd8559",
     "packages": [
         {
             "name": "composer/installers",
@@ -438,6 +438,41 @@
                 "siteconfig"
             ],
             "time": "2018-06-08T00:19:37+00:00"
+        },
+        {
+            "name": "silverstripers/silverstripe-news",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SilverStripers/silverstripe-news.git",
+                "reference": "81840fdb3425f2e5b31406fa6f47c91012a18ce3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SilverStripers/silverstripe-news/zipball/81840fdb3425f2e5b31406fa6f47c91012a18ce3",
+                "reference": "81840fdb3425f2e5b31406fa6f47c91012a18ce3",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nivanka Fonseka",
+                    "email": "nivanka@silverstripers.com"
+                }
+            ],
+            "description": "A simple news module for SilverStripe",
+            "keywords": [
+                "news",
+                "silverstripe"
+            ],
+            "time": "2019-01-29T12:36:01+00:00"
         }
     ],
     "packages-dev": [
@@ -1837,7 +1872,8 @@
         "silverstripe/cms": 0,
         "silverstripe/framework": 0,
         "silverstripe/reports": 0,
-        "silverstripe/siteconfig": 0
+        "silverstripe/siteconfig": 0,
+        "silverstripers/silverstripe-news": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

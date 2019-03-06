@@ -10,6 +10,11 @@
 
         </div>
     </section>
+<%-- $LatestRegion.debug --%>
+
+    <% include LatestArticle %>
+
+    <% include LatestRegion %>
 
     <% include clients %>
 
